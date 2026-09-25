@@ -1,0 +1,41 @@
+Tabelas 
+POF
+TBCA 
+TACO
+
+V1 — Banco de alimentos
+→ pesquisar alimento e visualizar composição.
+
+V2 — Criador de receitas
+→ adicionar ingredientes + quantidades → calcular receita.
+
+V3 — Cardápios
+→ juntar receitas/refeições → calcular total diário.
+
+V4 — Interface bonitinha
+→ programa com janelas, pesquisa, filtros etc.
+
+V5 — Geração de PDF
+→ ficha técnica da receita/cardápio para imprimir.
+
+V6 — Inteligência na montagem
+→ sugerir combinações de acordo com metas nutricionais.
+
+E aí finalmente:
+
+V7 — .exe
+→ você entrega o programa para outro PC e ele roda sem Python instalado.
+
+NutriCardapio/
+│
+├── main.py
+├── banco/
+│   └── nutricao.db
+│
+├── dados/
+│   └── alimentos.csv
+│
+├── telas/
+│   └── ...
+│
+└── README.md
